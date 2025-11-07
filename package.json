@@ -1,11 +1,14 @@
 {
-  "name": "ynab-mcp-server",
+  "name": "@iflow-mcp/ynab-mcp-server",
   "version": "0.1.2",
   "description": "ynab-mcp-server MCP server",
   "author": "Caleb LeNoir <caleb.lenoir@hey.com>",
   "type": "module",
   "bin": {
     "ynab-mcp-server": "./dist/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "dist"
